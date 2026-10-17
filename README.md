@@ -105,7 +105,7 @@ For each confirmed anomaly (e.g. `TOTAL_PREL` in March), the drill-down goes bac
 ## Results
 
 - Around **153,000 clients** analyzed over 17 months.
-- At the end of the pipeline, about **1.2%** of cases are flagged as anomalies, ranked by score.
+- At the end of the pipeline, about **1.7%***(test) of cases are flagged as anomalies, ranked by score.
 - Each flagged case comes with its exact variable, month and score, so the expert knows where to look instead of checking the whole file.
 
 ### Examples of detected anomalies
