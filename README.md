@@ -114,10 +114,10 @@ For each confirmed anomaly (e.g. `TOTAL_PREL` in March), the drill-down goes bac
 
 | | |
 |:---:|:---:|
-| ![Anomaly 1](docs/images/anomaly_1.png)|
+| ![Anomaly 1](docs/anomaly_1.png)|
 | **New payment:** `cont_745` was always 0, appeared in 02/2026, then disappeared. Score 0.95 (Élevé).|
-| ![Anomaly 3](docs/images/anomaly_2.png) | 
-| **[Type]:** short description. Score X (level).|
+| ![Anomaly 2](docs/anomaly_2.png) | 
+| **Variation anormale:** Unusual deductions in prel_960 that do not follow the client’s historical time-series patterns . Score 0.95 (Élevé)|
 ### How the results are used
 
 The pipeline **does not decide** anything on its own. The flagged cases go to the business experts, who start with the highest scores and verify each client's supporting documents before the payment is sent.
