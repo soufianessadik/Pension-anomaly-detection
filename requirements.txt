@@ -1,0 +1,7 @@
+pandas>=1.5
+numpy>=1.23
+pyarrow>=10.0
+torch>=2.0
+scikit-learn>=1.2
+pgmpy>=0.1.24,<1.0
+joblib>=1.2
