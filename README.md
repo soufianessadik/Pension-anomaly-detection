@@ -105,13 +105,19 @@ For each confirmed anomaly (e.g. `TOTAL_PREL` in March), the drill-down goes bac
 ## Results
 
 - Around **153,000 clients** analyzed over 17 months.
-- At the end of the pipeline, about **1.7%**(from test) of cases are flagged as anomalies, ranked by score.
+- At the end of the pipeline, about **1.2%** of cases are flagged as anomalies, ranked by score.
 - Each flagged case comes with its exact variable, month and score, so the expert knows where to look instead of checking the whole file.
 
-<!-- Add the anonymized figures here, e.g.:
-![Anomaly detected in a client's time series](docs/images/example_anomaly.png)
--->
+### Examples of detected anomalies
 
+*All examples are anonymized: no client ID or personal information is shown. The red cross marks the anomalous month and `s` is the final anomaly score.*
+
+| | |
+|:---:|:---:|
+| ![Anomaly 1](docs/images/anomaly_1.png)|
+| **New payment:** `cont_745` was always 0, appeared in 02/2026, then disappeared. Score 0.95 (Élevé).|
+| ![Anomaly 3](docs/images/anomaly_2.png) | 
+| **[Type]:** short description. Score X (level).|
 ### How the results are used
 
 The pipeline **does not decide** anything on its own. The flagged cases go to the business experts, who start with the highest scores and verify each client's supporting documents before the payment is sent.
